@@ -149,7 +149,7 @@ def scrape_jora_jobs():
         
         all_jobs_data = []
         page_number = 1
-        max_pages = 2  # Set how many pages you want to scrape
+        max_pages = 30  # Set how many pages you want to scrape
 
         print("Jora.com Detailed Selenium Scraper Initialized")
         print("=" * 50)
