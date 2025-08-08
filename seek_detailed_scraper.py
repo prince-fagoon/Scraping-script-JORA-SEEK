@@ -171,7 +171,7 @@ def scrape_seek_jobs():
         
         all_jobs_data = []
         page_number = 1
-        max_pages = 2  # Scrape 30 pages
+        max_pages = 22  # Scrape 30 pages
         
         while page_number <= max_pages:
             print(f"\nScraping page {page_number}...")
